@@ -1,0 +1,145 @@
+* {
+	margin:0;
+	padding:0;				/* removes the margins and padding of the whole page   */
+	background-color:rgba(150,200,180,0.2);
+	
+}
+#header {
+	background-color:white;
+	text-shadow:2px 2px 5px #7dff2f;
+	
+	
+}
+
+
+h1 {
+	text-align:center;
+	color:#000000;						/*helps the main hesding to align at the center of the page */
+	
+	
+	
+	
+}
+
+
+
+#rightnav {
+	width:600px;
+	float:right;
+	border-left: 2px groove red;
+	border-bottom:2px groove red;
+	color:black;
+	
+
+	
+}
+
+
+footer {
+	
+	
+	
+	
+}
+
+#main  {
+	
+	width:700px;
+	float:left;
+	border-right: 2px groove red;
+	border-bottom:2px groove red;
+	
+	
+}
+
+li {
+	
+	width:150px;
+	display:inline;
+	padding-left:50px;
+	font-size:25px;
+	border-right:2px solid yellow;
+    list-style-type: disc;
+	
+	
+}
+#horizlinks {
+	text-align:center;
+	background-color: grey;
+	clear:both;
+	
+	
+}
+a {
+	text-decoration:none;
+	
+	
+	
+}
+a:hover{								
+	
+	text-decoration:underline;
+	color:white;
+	background:white;
+	
+	
+}
+mark{
+	background:#f08080;				/*  highlights texts   */
+
+
+
+
+}	
+
+a:visited{
+	
+	color:blue;
+	
+}
+A:focus{
+	color:red;
+	
+}
+p {
+	
+	line-height:100%;
+	
+}
+h3 {
+	text-transform:uppercase;
+	
+	
+}
+p:first-line {				/* highlights every first line of every paragraph*/
+	color:orange;
+	
+	
+}
+#foot {
+	width:1900px;
+	height:70px;
+	background-color:grey;
+	clear:both;
+	text-align:right;
+	color:black;
+}
+
+img{
+	float:left;
+	border-top-left-radius:10px;
+}
+.haha{
+	white-space:normal;
+	
+}
+#images {
+	height:200px;
+	overflow:scroll;   /* makes the scroll bar to appear */
+	
+	
+}
+ul {
+	
+
+}

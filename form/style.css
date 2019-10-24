@@ -1,0 +1,48 @@
+fielset {
+	background-color:#f1f1f1;
+	border:none;
+	border-radius:2px;
+	margin-bottom:12px;
+	overflow:hidden;
+	padding:0 10px;
+}
+
+ul {
+	background-color:#fff;
+	border:1px solid #eaeaea;
+	list-style:none;
+	margin:12px;
+	padding:12px;
+}
+
+ul li {
+	
+	margin:05em 0;	
+}
+
+label {
+	display:inline-block;
+	padding:3px 6px;
+	text-align:right;
+	width:150px;
+	vertical-align:top;
+	
+	
+}
+input, select, button {
+	
+	font-size:100px;
+	
+}
+.small {
+	width: 75px;
+	
+	
+}
+.medium {
+	width: 75px;
+	
+}
+.large {
+	width:250px;
+}

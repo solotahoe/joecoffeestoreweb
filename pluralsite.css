@@ -1,0 +1,276 @@
+body{
+    width:1000px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family:verdana;
+    
+}
+header{
+    font-weight:bold;
+}
+
+   
+
+
+.headerlogo > img{
+    height:30px;
+    width:60px;
+    margin-top: 5px;
+    
+}
+
+.searchbox{
+    float: right;
+    padding:5px;
+    margin:10px 10px;
+    width:200px;
+}
+#headername{
+    font-size:50px;
+    color:#603813;
+    
+    font-weight: bold;
+    font-family: headerfont;
+    text-shadow: 7px 7px 7px #5f2c17;
+    
+}
+
+
+#welcomeimage{
+    float:left;
+    width:600px;
+    height:450px;
+    
+
+}
+#welcomeimage >img{
+    padding-top: 10px;
+    
+}
+#coffeeofthemonth{
+    float:right;
+    width:300px;
+    margin-top:0px;
+}
+#coffeeofthemonth >img{
+    width:300px;
+}
+#welcometext{
+    float:left;
+    width:70%;
+    font-size:12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    column-count:3;
+    -webkit-column-count:3;
+}
+#welcometext >header{
+    color:#603813;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:3px;
+}
+#events{
+    float: right;
+    width: 30%;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+#events >header{
+margin-left: 10px;
+color:#603813;
+font-size: 15px;
+margin-bottom: 3px;
+font-weight: bold;
+
+}
+#events >ul{
+    list-style:none;
+}
+#events>ul >li{
+    margin-bottom:3px;
+}
+footer{
+    clear: both;
+    width:100%;
+    background-color:#5c5045;
+    margin:20px 0px 20px;
+    padding:5px;
+
+}
+#bestseller{
+    clear: both;
+}
+.textcontent{
+    float: right;
+}
+
+.productarticle .productarticlethumbnail{ 
+width:300px;
+
+
+}
+
+.productarticle{
+    width:100%;
+
+
+}
+
+.iwantblockimages{
+display:inline-block;
+
+
+}
+    
+
+
+.productarticlename{
+    padding-left:140px;
+}
+.productarticleprice{
+    padding-left:140px;
+}
+.addtocartbutton{
+    padding-left:100px;
+}
+.backgroundgradient{
+    width:1000px;
+    background-color:rgb(255, 234, 47);
+    height:30px;
+    
+}
+.navlinkmain li{
+
+    list-style-type: none;
+    display:inline-block;
+    margin-left: 20px;
+    padding:0px 20px 0px 20px;
+    
+    
+    
+}
+.navlinkmain a{
+
+color: white;
+}
+
+
+button{
+    color:green;
+    background-color:rebeccapurple;
+}
+
+a{
+    text-decoration:none;
+    
+
+}
+a:hover{
+    color:red;
+}
+
+
+
+.textlabel{
+    position: absolute;
+}
+
+input{
+    margin-left:300px;
+}
+
+.backgroundgradient{
+background:linear-gradient(to right, #603813, #341c05);
+
+
+}
+#myaddcartbutton{
+cursor:pointer;
+padding: 4px 25px;
+background:#603813;
+border:1px solid #381f09;
+border-radius:8px;
+color:#f3f3f3;
+font-size:0.8em;
+width:120px;
+
+}
+
+
+
+#myaddcartbutton:hover, #myaddcartburton:focus{
+background-color: #512c0a;
+-webkit-box-shadow:0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow:0, 0, 1px rgba(0,0,0,.75);
+box-shadow: 0,0 1px rgba(0,0,0,.75);
+
+
+
+
+}
+@font-face{
+font-family: headerfont;
+src:url("fonts2.ttf");
+
+}
+.headerlogos img{
+margin-top:10px;
+height: 400px;
+width:600px;
+float:left;
+
+}
+.allcoffeess{
+    float:left;
+    width:600px;
+    margin-top:30px;
+    
+
+
+}
+.coffeeofthemonthallcoffeehtml img{
+
+width:300px;
+height: 400px;
+float:right;
+
+}
+.addtoshoppingcart{
+
+float:right;
+width:300px;
+margin-top:30px;
+
+}
+#addtoshoppingcartsection{
+height:700px;
+width:300px;
+border-left:2px solid #341c05;
+
+}
+.productarticlewidedescription1{
+width:600px;
+
+
+}
+.productarticlewidedescription{
+margin-left:100px;
+
+}
+.productarticlewidedescription1 img{
+height:200px;
+width:150px;
+float:left;
+    
+}
+
+.dataprice{
+    color:red;
+}
+#map{
+    height:400px;
+    width:600px;
+
+}

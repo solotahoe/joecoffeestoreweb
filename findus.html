@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device=width" initial-scale="1.0"/>
+<meta http-equiv="x-UA-compatible" content="ie=edge"/>
+<head>
+    <meta charset="utf-8"/>
+    <link href="pluralsite.css" rel="stylesheet" type="text/css"/>
+ 
+<!--<script src="geoposition.js"></script>-->
+</head>
+<header>
+
+        <header class="mainheader">
+                <div>
+                    <a class="headerlogo" href="index.html">
+                        <img src="commcoffee.jpg"/>
+                    </a>
+                    <span id="headername"> joe's coffee store</span>
+                    <input type="search" class="searchbox" placeholder="search our store"/>
+                </div>
+                <nav class="backgroundgradient">
+                    <ul class="navlinkmain">
+                        <li><a class="navlink" href="pluralsite.html">Home</a></li>
+                        <li><a class="navlink" href="blog.html">Blog</a></li>
+                        <li><a class="navlink" href="allcoffees.html">Our coffee</a></li>
+                        <li><a class="navlink" href="accessories.html">Accessories</a></li>
+                        <li><a class="navlink" href="gifts.html">Gifts</a></li>
+                        <li><a class="navlink" href="findus.html">find Us</a></li>
+                        <li><a class="navlink" href="checkout.html">Checkout</a></li>
+                        
+        
+        
+                    </ul>
+        
+        
+        
+        
+        
+                </nav>
+            </header>
+            <body>
+                    <img src="java.jpg"/>
+                    <p class="visitpagetext"> come to our real life store!</p>
+              <section class="maptostore">
+            <h1>Directions to My coffeee store</h1>
+            <div id="map"></div>
+
+            <div id="driving-directions"></div>
+            
+              </section>
+              <script>
+                function initMap(){
+                var options ={
+                    zoom:8,
+                    center:{lat:1.2085, lng: 36.8998}
+                }
+                
+                var map=new google.maps.Map(document.getElementById('map'), options)
+                }
+                </script>
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAETMBRO9RynSF76HiOeWtGga91f7vLiTk&callback=initMap">
+              </script>
+<!--
+<script>
+    document.addEventListener("DOMContentLoaded", CreateDrivingDirectionsMap, false);
+</script>
+-->
+
+
+
+
+    </body>
+</html> 

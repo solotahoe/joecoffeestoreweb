@@ -1,0 +1,84 @@
+#body {
+		background:red;
+	
+}
+#head {
+		background-color:EEE;
+		font-family:fantasy;
+
+}
+
+#nav {
+		width: 100px;
+		float: left;
+		float:center;
+		padding:opx;
+		
+		
+}
+		
+		
+
+
+#main {
+		width: 1000px;
+		float: right;
+		padding:opx:100px:0px:0px;
+		line-height:1.6;
+		font-size:.95em;
+		
+}
+
+#footer {
+		clear: both;
+		padding:10px;
+		background-color:grey;
+		
+	
+}
+h1 {
+		background-color:grey;
+		font-family:fantasy;
+		color:red;
+		padding:20px;
+		font-size:33px;
+		background:grey;
+	
+}
+ul {
+	font-weight:bold;
+	list-style-type:square;
+	padding:opx;
+}
+a {
+	text-decoration:underline;
+	padding:0px;
+	font-size:20px;
+	color:red;
+	
+}
+a:hover{
+	color:green;
+	text-decoration:none;
+	
+}
+h2 {
+	color:blue;
+	text-decoration:underline;
+	font-size:25px;
+	
+	
+}
+h3 {
+	color:green;
+	font-weight:bold;
+	font-family:fantasy;
+	text-decoration:underline;
+	background:#990000;
+}
+#addrress {
+		color:maroon;
+}
+a:active {
+		color:pink;	
+}
